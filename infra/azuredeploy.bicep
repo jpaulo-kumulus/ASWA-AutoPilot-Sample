@@ -39,7 +39,7 @@ param name string
     'West US 2'
     'West US 3'
 ])
-param location string = 'Korea Central'
+param location string = 'East US'
 
 // Cosmos DB
 @allowed([
@@ -93,7 +93,7 @@ param cosdbaConsistencyLevel string = 'Session'
     'West US 2'
     'West US 3'
 ])
-param cosdbaPrimaryRegion string = 'Korea Central'
+param cosdbaPrimaryRegion string = 'East US'
 param cosdbaEnableServerless bool = true
 @allowed([
     'Local'
@@ -110,7 +110,7 @@ param cosdbaBackupStorageRedundancy string = 'Local'
     'West Europe'
     'West US 2'
 ])
-param sttappLocation string = 'East Asia'
+param sttappLocation string = 'East US 2'
 param sttappSkuName string = 'Free'
 param sttappAllowConfigFileUpdates bool = true
 @allowed([
